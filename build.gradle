@@ -1,0 +1,23 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile 'org.redisson:redisson:2.7.0',
+                'de.ruedigermoeller:fst:2.48',
+                'org.xerial.snappy:snappy-java:1.1.2.6',
+                'junit:junit:4.12',
+                'org.springframework:spring-context-support:4.3.0.RELEASE'
+}
