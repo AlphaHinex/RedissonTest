@@ -43,11 +43,6 @@ public class DemoApplicationTests {
             return 10;
         }
 
-        @Cacheable(cacheNames = "apiSecrets")
-        public String setKey(String key) {
-            return key;
-        }
-
     }
 
     @Configuration

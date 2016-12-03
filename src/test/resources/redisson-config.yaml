@@ -1,3 +1,6 @@
+anythingelse:
+  ttl: 1000
+  maxIdleTime: 1000
 #test:
 #  ttl: 1000
 #  maxIdleTime: 1000
